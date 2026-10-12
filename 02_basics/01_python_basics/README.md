@@ -3,7 +3,7 @@
 Eleven short programs, from basic to intermediate. Python computes, prints and draws; the sound comes from Ableton Live, through MIDI. Max is a control surface: four faders that steer the real-time instrument of step 11. Each file begins with what it teaches, what it does, and a list of exercises; every exercise is a change to a value or a few lines, with a result that can be heard or seen.
 
 ```bash
-cd 00_python_basics
+cd 02_basics/01_python_basics
 python 01_numbers.py            # MIDI to Live through the IAC Driver
 python 01_numbers.py --print    # no MIDI: prints every message
 ```
