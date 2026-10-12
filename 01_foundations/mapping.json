@@ -1,0 +1,12 @@
+{
+  "continuous": [
+    {"feature": "jawOpen", "channel": 1, "cc": 74,
+     "conditioning": {"min_cutoff": 1.5, "beta": 5.0, "shape": 1.5}},
+    {"feature": "browInnerUp", "channel": 1, "cc": 71,
+     "conditioning": {"min_cutoff": 0.8, "beta": 2.0, "shape": 1.0}}
+  ],
+  "triggers": [
+    {"feature": "eyeBlinkLeft", "channel": 2, "low": 0.3, "high": 0.6, "root": 48}
+  ],
+  "behaviour": {"scale": [0, 3, 5, 7, 10, 12]}
+}
